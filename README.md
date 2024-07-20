@@ -1,16 +1,5 @@
 # GitHub Action - Releases API
 
-**Please note:** This repository is currently unmaintained by a team of developers at GitHub. The 
-repository is here and you can use it as an example, or in Actions. However please be aware that 
-we are not going to be updating issues or pull requests on this repository.
-
-**Maintained Actions:**
-* [elgohr/Github-Release-Action](https://github.com/elgohr/Github-Release-Action)
-* [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases)
-* [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-* [ncipollo/release-action](https://github.com/ncipollo/release-action)
-
-
 To reflect this state we’ve marked this repository as Archived.
 
 If you are having an issue or question about GitHub Actions then please [contact customer support](https://help.github.com/en/articles/about-github-actions#contacting-support).
@@ -88,7 +77,7 @@ jobs:
 This will create a [Release](https://help.github.com/en/articles/creating-releases), as well as a [`release` event](https://developer.github.com/v3/activity/events/types/#releaseevent), which could be handled by a third party service, or by GitHub Actions for additional uses, for example the [`@actions/upload-release-asset`](https://www.github.com/actions/upload-release-asset) GitHub Action. This uses the `GITHUB_TOKEN` provided by the [virtual environment](https://help.github.com/en/github/automating-your-workflow-with-github-actions/virtual-environments-for-github-actions#github_token-secret), so no new token is needed.
 
 ## Contributing
-We would love you to contribute to `@actions/create-release`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+We would love you to contribute to `@kuloud/create-release`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
