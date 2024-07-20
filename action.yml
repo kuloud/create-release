@@ -17,11 +17,11 @@ inputs:
   draft:
     description: '`true` to create a draft (unpublished) release, `false` to create a published one. Default: `false`'
     required: false
-    default: false
+    default: 'false'
   prerelease:
     description: '`true` to identify the release as a prerelease. `false` to identify the release as a full release. Default: `false`'
     required: false
-    default: false
+    default: 'false'
   commitish:
     description: 'Any branch or commit SHA the Git tag is created from, unused if the Git tag already exists. Default: SHA of current commit'
     required: false
@@ -39,7 +39,7 @@ outputs:
   upload_url:
     description: 'The URL for uploading assets to the release'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'tag'
